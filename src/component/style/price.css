@@ -1,14 +1,15 @@
 .price{
-  margin: 20px;
-    border: 20px;
+  margin: 10px;
+    border: 10px;
+    padding: 10px;
     background: center;
 }
 .container{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border:10px;
-    background-image: linear-gradient(to right,rgb(66, 66, 235), rgb(122, 154, 212), skyblue);
+    background-image: linear-gradient(to right,rgb(46, 48, 206), rgb(63, 107, 190), skyblue);
     background-position: center;
     display: flex;
     justify-content: center;
