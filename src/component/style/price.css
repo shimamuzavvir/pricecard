@@ -36,8 +36,8 @@
   #card{
    border-radius: 12px;
     background-position: center;
-    column-gap: 5px;
-    row-gap: 5px;
+    width: 250px;
+     margin: 1em;
     }
    
     li{

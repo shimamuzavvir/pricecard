@@ -4,10 +4,11 @@ import './style/price.css';
 const PriceCard = ({ arrObj }) => {
     return (
         <div className="price-container">
-            <div className="row row-cols-1 row-cols-md-3 g-12">
+            <div className="row row-cols-1 row-cols-md-3 cols-md-6 g-6">
                 {arrObj.map((item, index) => {
                     return (
                         <div key={index}>
+                            <div className='col'></div>
                             <div className="card h-200" id='card'>
                                 <div className="card-body">
                                     <h6 className="card-title text-muted text-center">{item.title}</h6>
